@@ -5,7 +5,7 @@ Allows replacing imports and exports in JS code, this package uses magic-string 
 ## Install
 
 ```
-npm install @atomico/replace-import
+npm install @uppercod/replace-import
 ```
 
 ## Usage
