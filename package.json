@@ -1,7 +1,7 @@
 {
     "name": "@uppercod/replace-import",
     "type": "module",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Capture text fragments based on regular expressions that are executed for each line of the text",
     "main": "./replace-import.cjs",
     "module": "./src/replace-import.js",
@@ -32,10 +32,12 @@
         "url": "https://github.com/UpperCod/pkg_name/issues"
     },
     "homepage": "https://github.com/UpperCod/pkg_name#readme",
+    "dependencies": {
+        "es-module-lexer": "^0.4.1",
+        "magic-string": "^0.25.7"
+    },
     "devDependencies": {
         "ava": "^3.10.1",
-        "es-module-lexer": "^0.4.1",
-        "magic-string": "^0.25.7",
         "rollup": "^2.21.0",
         "typescript": "^4.2.4"
     },
